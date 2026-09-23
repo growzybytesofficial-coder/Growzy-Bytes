@@ -1,0 +1,1152 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "_id": 1,
+      "title": "TechNova App Build",
+      "slug": "technova-app-build",
+      "category": "App Dev",
+      "shortDesc": "Built a scalable MERN stack application for a rising startup, improving load speeds by 60%.",
+      "description": "Built a scalable MERN stack application for a rising startup, improving load speeds by 60%.",
+      "fullDesc": "TechNova required a complete web redesign and fast cloud backend architecture. We delivered a clean React interface with real-time analytics.",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      "liveUrl": "https://technova-example.com",
+      "liveLink": "https://technova-example.com",
+      "githubUrl": "https://github.com/example/technova",
+      "repoLink": "https://github.com/example/technova",
+      "featured": true,
+      "displayOrder": 1,
+      "status": "published",
+      "tech": "[object Object], [object Object], [object Object], [object Object], [object Object]",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+      ],
+      "technologies": [
+        {
+          "id": 1,
+          "techName": "React"
+        },
+        {
+          "id": 2,
+          "techName": "Node.js"
+        },
+        {
+          "id": 3,
+          "techName": "Express"
+        },
+        {
+          "id": 4,
+          "techName": "Tailwind"
+        },
+        {
+          "id": 5,
+          "techName": "MySQL"
+        }
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      "updatedAt": "2026-09-06T17:14:17.926Z"
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "title": "Jagat-Education Portal",
+      "slug": "jagat-education-portal",
+      "category": "MERN Stack",
+      "shortDesc": "Dynamic educational website featuring responsive hero section, course listings, and interactive UI components.",
+      "description": "Dynamic educational website featuring responsive hero section, course listings, and interactive UI components.",
+      "fullDesc": "A comprehensive education management platform built for students and tutors to access interactive courses.",
+      "coverImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://jagatverma142.github.io/Jagateducation/",
+      "liveLink": "https://jagatverma142.github.io/Jagateducation/",
+      "githubUrl": "https://github.com/jagatverma142/Jagateducation",
+      "repoLink": "https://github.com/jagatverma142/Jagateducation",
+      "featured": true,
+      "displayOrder": 2,
+      "status": "published",
+      "tech": "React, Vite, Tailwind, Express, MySQL",
+      "images": [
+        {
+          "id": 2,
+          "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 6,
+          "techName": "React"
+        },
+        {
+          "id": 7,
+          "techName": "Vite"
+        },
+        {
+          "id": 8,
+          "techName": "Tailwind"
+        },
+        {
+          "id": 9,
+          "techName": "Express"
+        },
+        {
+          "id": 10,
+          "techName": "MySQL"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "_id": 3,
+      "title": "Jagat-Med Health Portal",
+      "slug": "jagat-med-health-portal",
+      "category": "Healthcare",
+      "shortDesc": "Responsive medical website with dynamic routing and service listings deployed on GitHub Pages.",
+      "description": "Responsive medical website with dynamic routing and service listings deployed on GitHub Pages.",
+      "fullDesc": "Health portal allowing patients to browse services, search medical departments, and book appointments.",
+      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://jagatverma142.github.io/jagat_med_web/",
+      "liveLink": "https://jagatverma142.github.io/jagat_med_web/",
+      "githubUrl": "https://github.com/jagatverma142/jagat_med_web",
+      "repoLink": "https://github.com/jagatverma142/jagat_med_web",
+      "featured": true,
+      "displayOrder": 3,
+      "status": "published",
+      "tech": "React, Vite, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 3,
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 11,
+          "techName": "React"
+        },
+        {
+          "id": 12,
+          "techName": "Vite"
+        },
+        {
+          "id": 13,
+          "techName": "Tailwind"
+        },
+        {
+          "id": 14,
+          "techName": "MySQL"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "_id": 4,
+      "title": "Awak Digital Agency",
+      "slug": "awak-digital-agency",
+      "category": "Marketing",
+      "shortDesc": "Modern digital agency portfolio featuring services from UI/UX to SEO with performance-first interface.",
+      "description": "Modern digital agency portfolio featuring services from UI/UX to SEO with performance-first interface.",
+      "fullDesc": "Performance portfolio showcasing growth marketing, branding, and conversion rate optimization campaigns.",
+      "coverImage": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://jagatverma142.github.io/Digital_Agency/",
+      "liveLink": "https://jagatverma142.github.io/Digital_Agency/",
+      "githubUrl": "https://github.com/jagatverma142/Digital_Agency",
+      "repoLink": "https://github.com/jagatverma142/Digital_Agency",
+      "featured": true,
+      "displayOrder": 4,
+      "status": "published",
+      "tech": "React, Framer Motion, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 4,
+          "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 15,
+          "techName": "React"
+        },
+        {
+          "id": 16,
+          "techName": "Framer Motion"
+        },
+        {
+          "id": 17,
+          "techName": "Tailwind"
+        },
+        {
+          "id": 18,
+          "techName": "MySQL"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "_id": 5,
+      "title": "Aura Luxe E-Commerce Platform",
+      "slug": "aura-luxe-ecommerce",
+      "category": "E-Commerce",
+      "shortDesc": "High-conversion fashion e-commerce storefront with custom checkout and Shopify API integrations.",
+      "description": "High-conversion fashion e-commerce storefront with custom checkout and Shopify API integrations.",
+      "fullDesc": "Built an ultra-fast headless e-commerce experience for luxury fashion apparel with dynamic cart management and sub-second page transitions.",
+      "coverImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://auraluxe-shop.com",
+      "liveLink": "https://auraluxe-shop.com",
+      "githubUrl": "https://github.com/jagatverma142/aura-luxe-ecommerce",
+      "repoLink": "https://github.com/jagatverma142/aura-luxe-ecommerce",
+      "featured": true,
+      "displayOrder": 5,
+      "status": "published",
+      "tech": "React, Next.js, Tailwind, Stripe, Express",
+      "images": [
+        {
+          "id": 5,
+          "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 19,
+          "techName": "React"
+        },
+        {
+          "id": 20,
+          "techName": "Next.js"
+        },
+        {
+          "id": 21,
+          "techName": "Tailwind"
+        },
+        {
+          "id": 22,
+          "techName": "Stripe"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "_id": 6,
+      "title": "Nova Analytics Dashboard",
+      "slug": "nova-analytics-dashboard",
+      "category": "SaaS",
+      "shortDesc": "Real-time cloud metrics and data visualization web suite for SaaS founders.",
+      "description": "Real-time cloud metrics and data visualization web suite for SaaS founders.",
+      "fullDesc": "Interactive analytics dashboard built with Recharts and WebSockets to monitor customer retention, MRR growth, and API usage.",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://nova-analytics-demo.com",
+      "liveLink": "https://nova-analytics-demo.com",
+      "githubUrl": "https://github.com/jagatverma142/nova-analytics",
+      "repoLink": "https://github.com/jagatverma142/nova-analytics",
+      "featured": true,
+      "displayOrder": 6,
+      "status": "published",
+      "tech": "React, Node.js, Recharts, Express, MySQL",
+      "images": [
+        {
+          "id": 6,
+          "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 23,
+          "techName": "React"
+        },
+        {
+          "id": 24,
+          "techName": "Recharts"
+        },
+        {
+          "id": 25,
+          "techName": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "_id": 7,
+      "title": "Apex Fitness & Booking App",
+      "slug": "apex-fitness-booking",
+      "category": "Healthcare",
+      "shortDesc": "Gym membership web portal with class scheduling, instructor booking, and workout logs.",
+      "description": "Gym membership web portal with class scheduling, instructor booking, and workout logs.",
+      "fullDesc": "Full-stack wellness platform enabling gym members to book personal training sessions, track caloric goals, and receive automated WhatsApp reminders.",
+      "coverImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://apex-fit.net",
+      "liveLink": "https://apex-fit.net",
+      "githubUrl": "https://github.com/jagatverma142/apex-fitness",
+      "repoLink": "https://github.com/jagatverma142/apex-fitness",
+      "featured": false,
+      "displayOrder": 7,
+      "status": "published",
+      "tech": "React, Vite, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 7,
+          "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 26,
+          "techName": "React"
+        },
+        {
+          "id": 27,
+          "techName": "Tailwind"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "_id": 8,
+      "title": "Prime Estates Global Portal",
+      "slug": "prime-estates-global",
+      "category": "Real Estate",
+      "shortDesc": "Luxury real estate listing website with interactive map view and virtual tour integration.",
+      "description": "Luxury real estate listing website with interactive map view and virtual tour integration.",
+      "fullDesc": "Property search and valuation portal for luxury residential real estate, featuring filterable neighborhood guides and instant agent inquiry flows.",
+      "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://prime-estates-example.com",
+      "liveLink": "https://prime-estates-example.com",
+      "githubUrl": "https://github.com/jagatverma142/prime-estates",
+      "repoLink": "https://github.com/jagatverma142/prime-estates",
+      "featured": true,
+      "displayOrder": 8,
+      "status": "published",
+      "tech": "React, Tailwind, Google Maps API, Express, MySQL",
+      "images": [
+        {
+          "id": 8,
+          "imageUrl": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 28,
+          "techName": "React"
+        },
+        {
+          "id": 29,
+          "techName": "Google Maps API"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "_id": 9,
+      "title": "FinPulse Wealth Management",
+      "slug": "finpulse-wealth-management",
+      "category": "FinTech",
+      "shortDesc": "Personal finance tracker and investment portfolio management web application.",
+      "description": "Personal finance tracker and investment portfolio management web application.",
+      "fullDesc": "FinTech web interface featuring asset allocation charts, dividend projection calculators, and secure banking API sync.",
+      "coverImage": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://finpulse-wealth.com",
+      "liveLink": "https://finpulse-wealth.com",
+      "githubUrl": "https://github.com/jagatverma142/finpulse-wealth",
+      "repoLink": "https://github.com/jagatverma142/finpulse-wealth",
+      "featured": false,
+      "displayOrder": 9,
+      "status": "published",
+      "tech": "React, TypeScript, Recharts, Express, MySQL",
+      "images": [
+        {
+          "id": 9,
+          "imageUrl": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 30,
+          "techName": "React"
+        },
+        {
+          "id": 31,
+          "techName": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "_id": 10,
+      "title": "Zenith AI Writing Assistant",
+      "slug": "zenith-ai-writing-assistant",
+      "category": "AI & Automation",
+      "shortDesc": "AI-powered content generation app leveraging Gemini API for SEO blogs and marketing copy.",
+      "description": "AI-powered content generation app leveraging Gemini API for SEO blogs and marketing copy.",
+      "fullDesc": "Web app that automates marketing copy generation, blog outline creation, and social media posting schedules via modern LLM integrations.",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://zenith-ai-demo.com",
+      "liveLink": "https://zenith-ai-demo.com",
+      "githubUrl": "https://github.com/jagatverma142/zenith-ai",
+      "repoLink": "https://github.com/jagatverma142/zenith-ai",
+      "featured": true,
+      "displayOrder": 10,
+      "status": "published",
+      "tech": "React, Gemini API, Express, Node.js, Tailwind",
+      "images": [
+        {
+          "id": 10,
+          "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 32,
+          "techName": "React"
+        },
+        {
+          "id": 33,
+          "techName": "Gemini API"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "_id": 11,
+      "title": "Gourmet Hub Food Delivery",
+      "slug": "gourmet-hub-food-delivery",
+      "category": "E-Commerce",
+      "shortDesc": "Multi-restaurant food ordering system with live order tracking and menu builder.",
+      "description": "Multi-restaurant food ordering system with live order tracking and menu builder.",
+      "fullDesc": "Web portal for premium cloud kitchens featuring dynamic menu management, real-time driver tracking, and instant WhatsApp invoice dispatch.",
+      "coverImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://gourmethub-app.com",
+      "liveLink": "https://gourmethub-app.com",
+      "githubUrl": "https://github.com/jagatverma142/gourmet-hub",
+      "repoLink": "https://github.com/jagatverma142/gourmet-hub",
+      "featured": false,
+      "displayOrder": 11,
+      "status": "published",
+      "tech": "React, Socket.io, Tailwind, Express, MySQL",
+      "images": [
+        {
+          "id": 11,
+          "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 34,
+          "techName": "React"
+        },
+        {
+          "id": 35,
+          "techName": "Socket.io"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "_id": 12,
+      "title": "SkillCraft Learning Management",
+      "slug": "skillcraft-learning-management",
+      "category": "EdTech",
+      "shortDesc": "LMS platform with video streaming, quiz assessments, and verified course certificates.",
+      "description": "LMS platform with video streaming, quiz assessments, and verified course certificates.",
+      "fullDesc": "Online course platform supporting HD video player embeds, student progress dashboards, and automated PDF completion certificate generator.",
+      "coverImage": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://skillcraft-lms.com",
+      "liveLink": "https://skillcraft-lms.com",
+      "githubUrl": "https://github.com/jagatverma142/skillcraft-lms",
+      "repoLink": "https://github.com/jagatverma142/skillcraft-lms",
+      "featured": false,
+      "displayOrder": 12,
+      "status": "published",
+      "tech": "React, Express, Node.js, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 12,
+          "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 36,
+          "techName": "React"
+        },
+        {
+          "id": 37,
+          "techName": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "_id": 13,
+      "title": "SwiftLogistics Freight Manager",
+      "slug": "swiftlogistics-freight-manager",
+      "category": "Logistics",
+      "shortDesc": "Supply chain management suite for tracking fleet locations and shipment manifests.",
+      "description": "Supply chain management suite for tracking fleet locations and shipment manifests.",
+      "fullDesc": "Logistics platform designed for freight operators to manage dispatch schedules, track driver GPS routes, and automate delivery PODs.",
+      "coverImage": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://swiftlogistics-app.com",
+      "liveLink": "https://swiftlogistics-app.com",
+      "githubUrl": "https://github.com/jagatverma142/swift-logistics",
+      "repoLink": "https://github.com/jagatverma142/swift-logistics",
+      "featured": false,
+      "displayOrder": 13,
+      "status": "published",
+      "tech": "React, Google Maps API, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 13,
+          "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 38,
+          "techName": "React"
+        },
+        {
+          "id": 39,
+          "techName": "Tailwind"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "_id": 14,
+      "title": "Pulse Media Podcast Network",
+      "slug": "pulse-media-podcast-network",
+      "category": "Media",
+      "shortDesc": "Audio streaming web app for independent creators with custom audio player and episode transcripts.",
+      "description": "Audio streaming web app for independent creators with custom audio player and episode transcripts.",
+      "fullDesc": "Media web platform featuring audio player controls, episode search, newsletter subscriptions, and sponsor ad insertion.",
+      "coverImage": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://pulsemedia-network.com",
+      "liveLink": "https://pulsemedia-network.com",
+      "githubUrl": "https://github.com/jagatverma142/pulse-media",
+      "repoLink": "https://github.com/jagatverma142/pulse-media",
+      "featured": false,
+      "displayOrder": 14,
+      "status": "published",
+      "tech": "React, Web Audio API, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 14,
+          "imageUrl": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 40,
+          "techName": "React"
+        },
+        {
+          "id": 41,
+          "techName": "Web Audio API"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "_id": 15,
+      "title": "Solaris Clean Energy Portal",
+      "slug": "solaris-clean-energy-portal",
+      "category": "CleanTech",
+      "shortDesc": "Solar panel installation calculator and green energy quote generator for homeowners.",
+      "description": "Solar panel installation calculator and green energy quote generator for homeowners.",
+      "fullDesc": "Interactive web app helping residential customers estimate solar payback periods, calculate carbon savings, and schedule site audits.",
+      "coverImage": "https://images.unsplash.com/photo-1509391365360-2e959784a276?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1509391365360-2e959784a276?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://solaris-green.com",
+      "liveLink": "https://solaris-green.com",
+      "githubUrl": "https://github.com/jagatverma142/solaris-energy",
+      "repoLink": "https://github.com/jagatverma142/solaris-energy",
+      "featured": false,
+      "displayOrder": 15,
+      "status": "published",
+      "tech": "React, Chart.js, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 15,
+          "imageUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 42,
+          "techName": "React"
+        },
+        {
+          "id": 43,
+          "techName": "Chart.js"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "_id": 16,
+      "title": "Vanguard Law Practice",
+      "slug": "vanguard-law-practice",
+      "category": "Corporate",
+      "shortDesc": "Corporate legal agency site with attorney profiles, case study showcase, and consultation booking.",
+      "description": "Corporate legal agency site with attorney profiles, case study showcase, and consultation booking.",
+      "fullDesc": "High-trust legal consultancy portal built with accessibility standards, encrypted document intake forms, and automated calendar sync.",
+      "coverImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://vanguard-law-example.com",
+      "liveLink": "https://vanguard-law-example.com",
+      "githubUrl": "https://github.com/jagatverma142/vanguard-law",
+      "repoLink": "https://github.com/jagatverma142/vanguard-law",
+      "featured": false,
+      "displayOrder": 16,
+      "status": "published",
+      "tech": "React, Framer Motion, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 16,
+          "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 44,
+          "techName": "React"
+        },
+        {
+          "id": 45,
+          "techName": "Framer Motion"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "_id": 17,
+      "title": "Wanderlust Travel Experiences",
+      "slug": "wanderlust-travel-experiences",
+      "category": "Travel & Tourism",
+      "shortDesc": "Custom tour itinerary builder and destination booking portal with currency converter.",
+      "description": "Custom tour itinerary builder and destination booking portal with currency converter.",
+      "fullDesc": "Travel agency platform featuring curated vacation packages, interactive day-by-day itinerary planners, and customer review modules.",
+      "coverImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://wanderlust-tours.net",
+      "liveLink": "https://wanderlust-tours.net",
+      "githubUrl": "https://github.com/jagatverma142/wanderlust-travel",
+      "repoLink": "https://github.com/jagatverma142/wanderlust-travel",
+      "featured": false,
+      "displayOrder": 17,
+      "status": "published",
+      "tech": "React, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 17,
+          "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 46,
+          "techName": "React"
+        },
+        {
+          "id": 47,
+          "techName": "Tailwind"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "_id": 18,
+      "title": "UrbanStay Boutique Hotel",
+      "slug": "urbanstay-boutique-hotel",
+      "category": "Hospitality",
+      "shortDesc": "Boutique hotel booking engine with room availability calendar and amenities showcase.",
+      "description": "Boutique hotel booking engine with room availability calendar and amenities showcase.",
+      "fullDesc": "Direct booking web application for luxury hospitality brands, reducing third-party commission fees with instant guest reservation checkouts.",
+      "coverImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://urbanstay-hotel.com",
+      "liveLink": "https://urbanstay-hotel.com",
+      "githubUrl": "https://github.com/jagatverma142/urbanstay-hotel",
+      "repoLink": "https://github.com/jagatverma142/urbanstay-hotel",
+      "featured": false,
+      "displayOrder": 18,
+      "status": "published",
+      "tech": "React, Vite, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 18,
+          "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 48,
+          "techName": "React"
+        },
+        {
+          "id": 49,
+          "techName": "Vite"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "_id": 19,
+      "title": "CryptoShield Wallet Web App",
+      "slug": "cryptoshield-wallet-app",
+      "category": "FinTech",
+      "shortDesc": "Web3 dashboard monitoring token prices, gas fees, and portfolio performance.",
+      "description": "Web3 dashboard monitoring token prices, gas fees, and portfolio performance.",
+      "fullDesc": "Decentralized finance UI allowing users to check token balances, track historical yield, and simulate swap transactions.",
+      "coverImage": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://cryptoshield-web.com",
+      "liveLink": "https://cryptoshield-web.com",
+      "githubUrl": "https://github.com/jagatverma142/cryptoshield-wallet",
+      "repoLink": "https://github.com/jagatverma142/cryptoshield-wallet",
+      "featured": false,
+      "displayOrder": 19,
+      "status": "published",
+      "tech": "React, Ethers.js, Recharts, Express, Tailwind",
+      "images": [
+        {
+          "id": 19,
+          "imageUrl": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 50,
+          "techName": "React"
+        },
+        {
+          "id": 51,
+          "techName": "Ethers.js"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "_id": 20,
+      "title": "ProTask Team Collaboration",
+      "slug": "protask-team-collaboration",
+      "category": "SaaS",
+      "shortDesc": "Kanban task management app for remote software teams with milestone tracking.",
+      "description": "Kanban task management app for remote software teams with milestone tracking.",
+      "fullDesc": "Project workflow application built for agile teams with drag-and-drop boards, sprint planning views, and automated email alerts.",
+      "coverImage": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://protask-app.io",
+      "liveLink": "https://protask-app.io",
+      "githubUrl": "https://github.com/jagatverma142/protask-app",
+      "repoLink": "https://github.com/jagatverma142/protask-app",
+      "featured": false,
+      "displayOrder": 20,
+      "status": "published",
+      "tech": "React, Dnd-Kit, Express, Node.js, MySQL",
+      "images": [
+        {
+          "id": 20,
+          "imageUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 52,
+          "techName": "React"
+        },
+        {
+          "id": 53,
+          "techName": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "_id": 21,
+      "title": "AutoCraft Car Rental",
+      "slug": "autocraft-car-rental",
+      "category": "Automotive",
+      "shortDesc": "Vehicle fleet booking platform with instant price estimate and insurance add-ons.",
+      "description": "Vehicle fleet booking platform with instant price estimate and insurance add-ons.",
+      "fullDesc": "Self-service car rental application featuring vehicle availability filters, location pick-up selector, and digital agreement signature flow.",
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://autocraft-rentals.com",
+      "liveLink": "https://autocraft-rentals.com",
+      "githubUrl": "https://github.com/jagatverma142/autocraft-rentals",
+      "repoLink": "https://github.com/jagatverma142/autocraft-rentals",
+      "featured": false,
+      "displayOrder": 21,
+      "status": "published",
+      "tech": "React, Tailwind, Express, MySQL",
+      "images": [
+        {
+          "id": 21,
+          "imageUrl": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 54,
+          "techName": "React"
+        },
+        {
+          "id": 55,
+          "techName": "Express"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "_id": 22,
+      "title": "EcoPack Sustainable Solutions",
+      "slug": "ecopack-sustainable-solutions",
+      "category": "E-Commerce",
+      "shortDesc": "B2B eco-friendly packaging catalog with custom bulk pricing request forms.",
+      "description": "B2B eco-friendly packaging catalog with custom bulk pricing request forms.",
+      "fullDesc": "Industrial e-commerce platform showcasing biodegradable packaging products with dynamic sample request flows and PDF product specs.",
+      "coverImage": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=1200&auto=format&fit=crop",
+      "liveUrl": "https://ecopack-direct.com",
+      "liveLink": "https://ecopack-direct.com",
+      "githubUrl": "https://github.com/jagatverma142/ecopack-direct",
+      "repoLink": "https://github.com/jagatverma142/ecopack-direct",
+      "featured": false,
+      "displayOrder": 22,
+      "status": "published",
+      "tech": "React, Vite, Express, Tailwind, MySQL",
+      "images": [
+        {
+          "id": 22,
+          "imageUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 56,
+          "techName": "React"
+        },
+        {
+          "id": 57,
+          "techName": "Vite"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "_id": 23,
+      "title": "GROWZYBYTES Official Agency Portal",
+      "slug": "growzybytes-agency-portal",
+      "category": "Agency",
+      "shortDesc": "The primary growth agency portal featuring case studies, service calculators, and lead management.",
+      "description": "The primary growth agency portal featuring case studies, service calculators, and lead management.",
+      "fullDesc": "Full-stack agency platform with custom admin management, portfolio case studies, lead acquisition funnels, and automated client analytics.",
+      "coverImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "liveUrl": "https://growzybytes.com",
+      "liveLink": "https://growzybytes.com",
+      "githubUrl": "https://github.com/jagatverma142/growzybytes-agency",
+      "repoLink": "https://github.com/jagatverma142/growzybytes-agency",
+      "featured": true,
+      "displayOrder": 23,
+      "status": "published",
+      "tech": "React, Node.js, Express, Tailwind, Prisma, MySQL",
+      "images": [
+        {
+          "id": 23,
+          "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 58,
+          "techName": "React"
+        },
+        {
+          "id": 59,
+          "techName": "Prisma"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Custom Software Development Pro",
+      "slug": "web-development",
+      "category": "Development",
+      "shortDesc": "Custom MERN stack websites and landing pages engineered for blazing speed and high conversion rates.",
+      "fullDesc": "We design and develop high-performance web applications using React, Node.js, and modern CSS frameworks. Our platforms are optimized for high search rankings, mobile responsiveness, and high conversion efficiency.",
+      "features": "MERN Stack,Fast Loading,Responsive UI,SEO Friendly,Custom Admin Panel",
+      "displayOrder": 1,
+      "status": "published",
+      "featured": true,
+      "_id": 1,
+      "image": "",
+      "imageUrl": "",
+      "updatedAt": "2026-09-06T16:54:03.227Z"
+    },
+    {
+      "id": 2,
+      "title": "SEO & Organic Growth",
+      "slug": "seo-organic-growth",
+      "category": "Marketing",
+      "shortDesc": "Technical SEO, high-authority link building, and content strategies to dominate Google search results.",
+      "fullDesc": "Comprehensive SEO strategy focusing on technical health, keyword mapping, on-page optimization, and high quality backlinks to deliver compounding organic revenue.",
+      "features": "Technical Audit,Keyword Strategy,On-Page SEO,Authority Backlinks,GA4 Reporting",
+      "displayOrder": 2,
+      "status": "published",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Performance Ads",
+      "slug": "performance-ads",
+      "category": "Marketing",
+      "shortDesc": "Data-driven Meta & Google Ads campaigns with rigorous A/B testing to maximize your ROAS.",
+      "fullDesc": "Full funnel paid advertising management across Meta, Google, and LinkedIn. We create ad creatives, set up conversion tracking, and continually optimize for lower CPA.",
+      "features": "Meta & Google Ads,Creative Testing,Retargeting Funnels,Conversion Tracking,Weekly Reporting",
+      "displayOrder": 3,
+      "status": "published",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Email & WhatsApp Automations",
+      "slug": "email-whatsapp-automations",
+      "category": "Automation",
+      "shortDesc": "Advanced email sequences and WhatsApp funnels designed to recover carts and increase LTV.",
+      "fullDesc": "Build automated customer journeys that convert leads into sales and retain buyers through personalized messaging.",
+      "features": "Abandoned Cart Flows,Welcome Sequences,WhatsApp API Integration,Segmented Campaigns",
+      "displayOrder": 4,
+      "status": "published",
+      "featured": true
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "_id": 1,
+      "title": "Why Custom Web Engineering Wins Updated",
+      "slug": "how-to-build-a-high-converting-business-website-in-2026",
+      "category": "Web Development",
+      "content": "A strong business website is no longer just about design. It needs clear messaging, fast loading speed, mobile responsiveness, SEO-friendly structure, trust elements, strategic CTAs and lead capture systems. Businesses that align design with conversion usually get better quality inquiries and stronger brand trust.\n\nIn 2026, user patience is shorter than ever. Your site must load in under 2 seconds and present value immediately.",
+      "featuredImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
+      "author": "GROWZYBYTES Team",
+      "featured": true,
+      "displayOrder": 1,
+      "status": "published",
+      "tags": "React, UI/UX, Conversion, Business Website",
+      "tagArray": [
+        "React",
+        "UI/UX",
+        "Conversion",
+        "Business Website"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
+      "updatedAt": "2026-09-06T16:54:01.412Z"
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "title": "SEO Basics Every Small Business Should Understand",
+      "slug": "seo-basics-every-small-business-should-understand",
+      "category": "SEO",
+      "content": "SEO helps businesses attract high-intent visitors without depending only on paid ads. The basics include keyword targeting, technical site health, on-page optimization, content clarity, internal linking and user-focused structure. When done correctly, SEO compounds over time and improves long-term visibility.\n\nFocus on search intent over simple volume to generate qualified leads.",
+      "featuredImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "author": "GROWZYBYTES Team",
+      "featured": true,
+      "displayOrder": 2,
+      "status": "published",
+      "tags": "SEO, Organic Growth, Keywords, Content",
+      "tagArray": [
+        "SEO",
+        "Organic Growth",
+        "Keywords",
+        "Content"
+      ]
+    },
+    {
+      "id": 3,
+      "_id": 3,
+      "title": "Meta Ads vs Google Ads: Which One Should You Start With?",
+      "slug": "meta-ads-vs-google-ads-which-one-should-you-start-with",
+      "category": "Performance Marketing",
+      "content": "Both ad platforms can work, but the better choice depends on buyer intent, product type, sales cycle and creative strength. Google Ads usually captures demand while Meta Ads can help create demand. Businesses should first decide their goal, funnel stage and budget before choosing a platform.",
+      "featuredImage": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=1200&q=80",
+      "author": "GROWZYBYTES Team",
+      "featured": false,
+      "displayOrder": 3,
+      "status": "published",
+      "tags": "Meta Ads, Google Ads, PPC, Marketing",
+      "tagArray": [
+        "Meta Ads",
+        "Google Ads",
+        "PPC",
+        "Marketing"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": 1788713927680,
+      "_id": 1788713927680,
+      "name": "Anjali Singh",
+      "role": "UI & UX DEVELOPER",
+      "bio": "owner",
+      "image": "/uploads/bhupendra-founder-1788714421511.jpg",
+      "imageUrl": "/uploads/bhupendra-founder-1788714421511.jpg",
+      "displayOrder": 0,
+      "createdAt": "2026-09-06T16:58:47.680Z",
+      "updatedAt": "2026-09-06T17:07:04.335Z",
+      "coverImage": "/uploads/bhupendra-founder-1788714421511.jpg",
+      "value": "/uploads/bhupendra-founder-1788714421511.jpg",
+      "avatar": "/uploads/bhupendra-founder-1788714421511.jpg"
+    },
+    {
+      "id": 1,
+      "_id": 1,
+      "name": "Bhupendra",
+      "role": "Founder & Lead Growth Architect",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80",
+      "bio": "Full-stack engineer & growth strategist specializing in scalable React/Node platforms and performance advertising.",
+      "displayOrder": 1,
+      "updatedAt": "2026-09-06T17:14:12.824Z"
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "name": "Jagat Verma",
+      "role": "Senior Full Stack Engineer",
+      "bio": "MERN stack architect focused on high-speed web apps, clean API design, and database optimization.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+      "displayOrder": 2,
+      "createdAt": "2026-09-06T17:05:06.804Z",
+      "updatedAt": "2026-09-06T17:05:06.804Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "_id": 1,
+      "name": "Ankit Sharma",
+      "role": "CEO",
+      "company": "D2C Apparel",
+      "quote": "GROWZYBYTES redesigned our e-commerce platform and optimized our ad campaigns. Our monthly revenue grew by 4x in less than 5 months.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "rating": 5,
+      "displayOrder": 1
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "name": "Priya Patel",
+      "role": "Founder",
+      "company": "EdTech Academy",
+      "quote": "The team built a blazing fast web app with automated enrollment funnels. The quality of execution and ongoing support is unmatched.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "rating": 5,
+      "displayOrder": 2
+    },
+    {
+      "id": 3,
+      "_id": 3,
+      "name": "Rahul Verma",
+      "role": "Director",
+      "company": "Global Real Estates",
+      "quote": "Ranked on page 1 for 15+ real estate keywords within 4 months. Their technical SEO and content approach generates solid leads daily.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+      "rating": 5,
+      "displayOrder": 3
+    }
+  ],
+  "pageImages": [
+    {
+      "id": 1,
+      "_id": 1,
+      "key": "about_banner",
+      "value": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      "title": "About",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      "page": "About",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      "updatedAt": "2026-09-06T16:54:04.962Z"
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "key": "about_banner",
+      "value": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+      "title": "about_banner",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+      "page": "about",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    },
+    {
+      "id": 3,
+      "_id": 3,
+      "key": "services_banner",
+      "value": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80",
+      "title": "services_banner",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80",
+      "page": "services",
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80"
+    }
+  ],
+  "settings": {
+    "site_title": "GROWZYBYTES - Digital Growth & Web Agency",
+    "logo_name": "GROWZYBYTES",
+    "tagline": "We Build Growth Systems, Not Just Websites",
+    "email": "contact@growzybytes.com",
+    "phone": "+91 81711 21943",
+    "address": "New Delhi, India",
+    "hero_title": "We Build High-Converting Web Platforms & Digital Funnels",
+    "hero_subtitle": "Custom Web Apps, Technical SEO, Performance Marketing, & Growth Automation",
+    "footer_about": "GROWZYBYTES is a modern digital growth agency helping brands scale with custom web development, SEO, paid ads, and automation.",
+    "social_facebook": "https://facebook.com",
+    "social_instagram": "https://instagram.com",
+    "social_linkedin": "https://linkedin.com",
+    "social_twitter": "https://twitter.com"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "_id": 1,
+      "question": "How long does a custom web development project take?",
+      "answer": "Standard business websites and landing pages take 1-2 weeks. Complex custom web applications take 3-4 weeks from design to deployment.",
+      "displayOrder": 1
+    },
+    {
+      "id": 2,
+      "_id": 2,
+      "question": "Do you provide maintenance and ongoing support after launch?",
+      "answer": "Yes! We offer monthly maintenance packages covering technical updates, security monitoring, content edits, and performance optimization.",
+      "displayOrder": 2
+    },
+    {
+      "id": 3,
+      "_id": 3,
+      "question": "Can you host and manage the website on our Hostinger/cPanel server?",
+      "answer": "Absolutely. We configure MySQL databases, SSL certificates, Node.js runtime environments, and automated CI/CD deployments directly on Hostinger or your preferred host.",
+      "displayOrder": 3
+    }
+  ],
+  "leads": [],
+  "subscribers": []
+}

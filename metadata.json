@@ -1,0 +1,6 @@
+{
+  "name": "Growzybytes",
+  "description": "Tech agency and digital services platform featuring client showcases, service offerings, blogs, lead capturing, and an administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

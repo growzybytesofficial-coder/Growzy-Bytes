@@ -1,0 +1,201 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Admin {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  role      String   @default("admin")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("admins")
+}
+
+model SiteSetting {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique
+  value     String   @db.Text
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("site_settings")
+}
+
+model Service {
+  id           Int      @id @default(autoincrement())
+  title        String
+  slug         String   @unique
+  category     String   @default("Specialized Service")
+  shortDesc    String   @default("") @map("short_desc") @db.Text
+  fullDesc     String   @default("") @map("full_desc") @db.Text
+  features     String   @default("") @db.Text
+  displayOrder Int      @default(0) @map("display_order")
+  status       String   @default("published")
+  featured     Boolean  @default(false)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@index([slug])
+  @@index([status])
+  @@index([category])
+  @@map("services")
+}
+
+model Project {
+  id           Int                 @id @default(autoincrement())
+  title        String
+  slug         String              @unique
+  category     String              @default("Web Development")
+  shortDesc    String              @default("") @map("short_description") @db.Text
+  fullDesc     String              @default("") @map("full_description") @db.Text
+  coverImage   String              @default("") @map("cover_image")
+  liveUrl      String              @default("") @map("live_url")
+  githubUrl    String              @default("") @map("github_url")
+  clientName   String              @default("") @map("client_name")
+  completedDate String             @default("") @map("completed_date")
+  featured     Boolean             @default(false)
+  displayOrder Int                 @default(0) @map("display_order")
+  status       String              @default("published")
+  createdAt    DateTime            @default(now()) @map("created_at")
+  updatedAt    DateTime            @updatedAt @map("updated_at")
+  images       ProjectImage[]
+  technologies ProjectTechnology[]
+
+  @@index([slug])
+  @@index([status])
+  @@index([category])
+  @@index([featured])
+  @@index([displayOrder])
+  @@map("projects")
+}
+
+model ProjectImage {
+  id           Int      @id @default(autoincrement())
+  projectId    Int      @map("project_id")
+  imageUrl     String   @map("image_url")
+  altText      String   @default("") @map("alt_text")
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  project      Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@index([projectId])
+  @@map("project_images")
+}
+
+model ProjectTechnology {
+  id             Int      @id @default(autoincrement())
+  projectId      Int      @map("project_id")
+  techName       String   @map("technology_name")
+  createdAt      DateTime @default(now()) @map("created_at")
+  project        Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@index([projectId])
+  @@map("project_technologies")
+}
+
+model Blog {
+  id            Int       @id @default(autoincrement())
+  title         String
+  slug          String    @unique
+  category      String    @default("General")
+  content       String    @db.Text
+  featuredImage String    @default("") @map("featured_image")
+  author        String    @default("Growzybytes Team")
+  featured      Boolean   @default(false)
+  displayOrder  Int       @default(0) @map("display_order")
+  status        String    @default("published")
+  publishDate   DateTime  @default(now()) @map("publish_date")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+  tags          BlogTag[]
+
+  @@index([slug])
+  @@index([status])
+  @@index([category])
+  @@map("blogs")
+}
+
+model BlogTag {
+  id        Int      @id @default(autoincrement())
+  blogId    Int      @map("blog_id")
+  tagName   String   @map("tag_name")
+  createdAt DateTime @default(now()) @map("created_at")
+  blog      Blog     @relation(fields: [blogId], references: [id], onDelete: Cascade)
+
+  @@index([blogId])
+  @@map("blog_tags")
+}
+
+model Testimonial {
+  id           Int      @id @default(autoincrement())
+  name         String
+  role         String   @default("Client")
+  company      String   @default("")
+  quote        String   @db.Text
+  avatar       String   @default("")
+  rating       Int      @default(5)
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("testimonials")
+}
+
+model TeamMember {
+  id           Int      @id @default(autoincrement())
+  name         String
+  role         String
+  image        String   @default("")
+  bio          String   @default("") @db.Text
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("team_members")
+}
+
+model Faq {
+  id           Int      @id @default(autoincrement())
+  question     String
+  answer       String   @db.Text
+  category     String   @default("General")
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("faqs")
+}
+
+model ContactLead {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String   @default("")
+  service   String   @default("")
+  budget    String   @default("")
+  message   String   @default("") @db.Text
+  status    String   @default("new")
+  isRead    Boolean  @default(false) @map("is_read")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("contact_leads")
+}
+
+model NewsletterSubscriber {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("newsletter_subscribers")
+}
