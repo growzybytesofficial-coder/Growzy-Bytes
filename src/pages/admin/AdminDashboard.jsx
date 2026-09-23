@@ -92,6 +92,10 @@ const AdminDashboard = () => {
     navigate('/admin');
   }, [navigate]);
 
+  useEffect(() => {
+    if (!token) navigate('/admin', { replace: true });
+  }, [navigate, token]);
+
   const handlePasswordSubmit = async (e) => {
     e.preventDefault();
     setPasswordError('');
@@ -1229,7 +1233,6 @@ const AdminDashboard = () => {
                     onChange={(e) => setPasswordData({ ...passwordData, currentPassword: e.target.value })}
                     className="w-full p-3.5 border border-slate-200 rounded-2xl bg-white text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-sm font-medium"
                   />
-                  <p className="text-[11px] text-slate-400 mt-1">Default was: Druhi@2011 / Growzybytes@2026</p>
                 </div>
 
                 <div>

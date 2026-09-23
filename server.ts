@@ -25,7 +25,7 @@ import adminRoutes from "./src/backend/routes/admin.routes.js";
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT || 3000);
 
   // Verify Prisma / Database connectivity
   try {
@@ -98,7 +98,7 @@ async function startServer() {
   // Vite Middleware / Static Asset Serving
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: { middlewareMode: true, hmr: false, ws: false },
       appType: "spa",
     });
     app.use(vite.middlewares);
@@ -110,8 +110,18 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
+  const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`🚀 GROWZYBYTES Server running at http://0.0.0.0:${PORT}`);
+  });
+
+  server.on("error", (error: NodeJS.ErrnoException) => {
+    if (error.code === "EADDRINUSE") {
+      console.error(`⚠️ Port ${PORT} is already in use. Stop the existing server or run with another PORT.`);
+      server.close(() => process.exit(1));
+      return;
+    }
+
+    throw error;
   });
 }
 

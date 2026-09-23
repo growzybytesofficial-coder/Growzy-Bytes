@@ -1,14 +1,13 @@
 // frontend/src/components/Navbar.jsx
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes, FaUserShield } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isAdmin, setIsAdmin] = useState(false);
   const [logoError, setLogoError] = useState(false);
 
   useEffect(() => {
@@ -23,11 +22,6 @@ const Navbar = () => {
       document.body.style.overflow = 'unset';
     };
   }, [isOpen]);
-
-  useEffect(() => {
-    const token = localStorage.getItem('tv_token') || localStorage.getItem('token');
-    setIsAdmin(!!token);
-  }, [location.pathname]);
 
   useEffect(() => {
     setIsOpen(false);
@@ -156,17 +150,6 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center space-x-4">
-          {isAdmin && (
-            <motion.div whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
-              <Link
-                to="/admin/dashboard"
-                className="bg-slate-800/80 backdrop-blur-md hover:bg-slate-700 text-blue-400 border border-blue-500/30 px-5 py-2.5 rounded-full font-bold transition duration-300 shadow-lg flex items-center text-sm"
-              >
-                <FaUserShield className="mr-2" /> Admin
-              </Link>
-            </motion.div>
-          )}
-
           <motion.div whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
             <Link
               to="/contact"
@@ -228,16 +211,6 @@ const Navbar = () => {
                 variants={mobileLinkVars}
                 className="pt-8 mt-4 border-t border-slate-800 flex flex-col items-center w-full space-y-4"
               >
-                {isAdmin && (
-                  <Link
-                    to="/admin/dashboard"
-                    onClick={closeMenu}
-                    className="inline-flex justify-center items-center w-full max-w-xs bg-slate-800 hover:bg-slate-700 text-blue-400 border border-blue-500/30 px-8 py-3.5 rounded-full font-bold text-lg transition duration-300 shadow-lg"
-                  >
-                    <FaUserShield className="mr-3" /> Go to Admin Panel
-                  </Link>
-                )}
-
                 <Link
                   to="/contact"
                   onClick={closeMenu}

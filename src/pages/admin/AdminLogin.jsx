@@ -22,6 +22,8 @@ const statusMessages = [
   'Fast, protected and responsive control panel',
 ];
 
+const showDevCredentials = import.meta.env.DEV;
+
 const AdminLogin = () => {
   const navigate = useNavigate();
 
@@ -295,10 +297,10 @@ const AdminLogin = () => {
                   )}
                 </AnimatePresence>
 
-                {/* Quick Fill Credentials Banner */}
+                {showDevCredentials && (
                 <div className="mb-5 p-3.5 bg-blue-50/80 border border-blue-100 rounded-2xl flex items-center justify-between gap-3 text-xs">
                   <div className="min-w-0">
-                    <p className="font-bold text-slate-800 text-[11px] uppercase tracking-wider">Default Admin Credentials</p>
+                    <p className="font-bold text-slate-800 text-[11px] uppercase tracking-wider">Development Admin Credentials</p>
                     <p className="text-slate-600 font-medium text-[11px] truncate mt-0.5">
                       <span className="font-mono text-slate-800">growzybytesofficial@gmail.com</span>
                     </p>
@@ -320,6 +322,7 @@ const AdminLogin = () => {
                     Quick Fill
                   </button>
                 </div>
+                )}
 
                 <form onSubmit={handleLogin} className="space-y-5">
                   <div>
