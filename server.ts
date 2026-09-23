@@ -103,10 +103,10 @@ async function startServer() {
     });
     app.use(vite.middlewares);
   } else {
-    const distPath = path.join(process.cwd(), "dist");
-    app.use(express.static(distPath));
+    const frontendPath = path.join(process.cwd(), "build");
+    app.use(express.static(frontendPath));
     app.get("*", (req, res) => {
-      res.sendFile(path.join(distPath, "index.html"));
+      res.sendFile(path.join(frontendPath, "index.html"));
     });
   }
 

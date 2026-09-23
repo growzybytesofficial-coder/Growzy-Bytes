@@ -156,6 +156,8 @@ Expected output:
 npm run build
 ```
 
+The frontend output is generated in `build/` and the Node server bundle is generated in `dist/server.cjs`.
+
 2. Start or restart the application:
    - In Hostinger **Node.js App Dashboard**, click **Restart App**.
    - Or manually start in terminal:
